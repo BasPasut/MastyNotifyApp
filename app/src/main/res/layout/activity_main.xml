@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    android:orientation="vertical"
+    tools:context="com.example.baspasut.mastynotify.MainActivity"
+    android:gravity="center">
+
+    <ImageButton
+        android:id="@+id/steamButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:onClick="gotoSite"
+        android:src="@drawable/steamlogo" />
+
+    <ImageButton
+        android:id="@+id/blizzardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:adjustViewBounds="true"
+        android:onClick="gotoSite"
+        android:scaleType="fitCenter"
+        android:src="@drawable/blizzardlogo" />
+
+    <ImageButton
+        android:id="@+id/eaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:onClick="gotoSite"
+        android:src="@drawable/ealogo" />
+
+    <ImageButton
+        android:id="@+id/updateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:onClick="update_button_clicked"
+        android:src="@drawable/showupdate"
+        android:background="@null"/>
+
+</LinearLayout>
